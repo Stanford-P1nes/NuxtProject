@@ -1,4 +1,14 @@
 # Nuxt Minimal Starter
+# this app - Nuxt 3 одностраничный сайт
+
+Это одностраничный приложение, созданное на Nuxt 3.
+Проект разработан с использованием модульной архитектуры, SCSS и компонентного подходаю.
+Этот проект демонстрирует основы фреймворка: страницы, компоненты, layouts, маршруты.
+
+## Технологии
+- Nuxt 3
+- SCSS(SASS)
+- Vite
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 

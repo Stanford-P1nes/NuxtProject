@@ -14,22 +14,13 @@ export default defineNuxtConfig({
 		},
 	},
 
-	css: [
-		'@/assets/styles/_Base.scss',
-		'@/assets/styles/_Link.scss',
-		'@/assets/styles/_Button.scss',
-	],
+	css: ['@/assets/styles/_Base.scss'],
 
 	vite: {
 		css: {
 			preprocessorOptions: {
 				scss: {
-					additionalData: `
-						@import '/assets/styles/_Colors.scss';
-						@import '/assets/styles/_Fonts.scss';
-						@import '/assets/styles/_Fonts.scss';
-						@import '/assets/styles/_Mixin.scss';
-					`,
+					additionalData: `@import '/assets/styles/_Mixin.scss';`,
 				},
 			},
 		},

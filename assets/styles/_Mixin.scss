@@ -1,0 +1,23 @@
+// font-face
+@font-face {
+	font-family: Roboto-Bold;
+	src: url(/fonts/Roboto-Bold_3_11zon.woff);
+}
+@font-face {
+	font-family: Roboto-Regular;
+	src: url(/fonts/Roboto-Regular_14_11zon.woff);
+}
+
+// font-family
+$Font-family: 'Roboto', sans-serif;
+
+// colors
+$Dark: #181818;
+$DarkOpacity: rgba(#181818, 0.9);
+$Light: #ffffff;
+$Accent: #FF7143;
+$Active: orange;
+$Grey: rgba(255, 255, 255, 0.12);
+$Avatar: #fde7da;
+$Placeholder: #aaa;
+$Access: lime;
