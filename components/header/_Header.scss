@@ -1,0 +1,27 @@
+.mainHeader {
+    width: 100%;
+    background-color: $Dark;
+    z-index: 1000;
+}
+.mainHeaderInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.miniBlockLogo {
+    position: relative;
+    display: flex;
+    gap: 66px;
+    height: 100%;
+    flex-wrap: nowrap;
+    &::before {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        background-color: $Grey;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

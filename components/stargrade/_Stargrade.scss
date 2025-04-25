@@ -1,0 +1,7 @@
+.stargrade {
+    display: flex;
+    gap: 10px;
+    .stargradeItem {
+        content: url('/stars/starIco.svg');
+    }
+}

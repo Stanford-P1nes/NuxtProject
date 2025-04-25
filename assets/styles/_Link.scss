@@ -1,0 +1,20 @@
+.link {
+    text-decoration: none;
+    color: $Light;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: $Font-family;
+    text-wrap: nowrap;
+    text-transform: lowercase;
+    transition: color .1s linear;
+    &:hover, &:active, &:focus {
+        color: $Active;
+    } 
+}
+
+.registerBlock__link {
+    width: 89px;
+    text-align: center;
+    border-left: 1px solid $Grey;
+}

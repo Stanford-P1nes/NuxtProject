@@ -1,0 +1,23 @@
+.product {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 6px;
+    box-shadow: 0 8px 8px 0 rgba(16, 19, 80, 0.12);
+    background: $Light;
+}
+.productImage {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+.productInfo {
+    width: 100%;
+    padding: 25px 33px;
+    strong {
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.4;
+        color: $Dark;
+    }
+}

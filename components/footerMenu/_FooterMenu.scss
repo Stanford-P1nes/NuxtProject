@@ -1,0 +1,11 @@
+.footerMenu {
+    ul {
+        display: flex;
+        gap: 1rem;
+        li {
+            .footerMenu__link {
+                text-transform: uppercase;
+            }
+        }
+    }
+}

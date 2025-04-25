@@ -1,0 +1,17 @@
+.hero {
+    width: 100%;
+    background-color: $Accent;
+    min-height: 100vh;
+}
+.heroInner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    &::after {
+        content: url('/img/img.png');
+    }
+}
+.heroInner__contentBlock {
+    margin: 100px 0;
+}

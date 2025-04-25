@@ -1,0 +1,13 @@
+.feetback {
+    width: 100%;
+    margin-bottom: 60px;
+}
+.feetbackInner {
+    display: flex;
+    justify-content: space-between;
+    background-color: $Accent;
+    padding: 91px 60px;
+}
+.feetbackInner__ContentBlock {
+    margin-left: 46px;
+}

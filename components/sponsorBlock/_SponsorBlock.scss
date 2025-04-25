@@ -1,0 +1,12 @@
+.sponsorBlock {
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        .sponsorBlock__link:hover,
+        .sponsorBlock__link:active,
+        .sponsorBlock__link:focus {
+            color: $Accent;
+        }
+    }
+}

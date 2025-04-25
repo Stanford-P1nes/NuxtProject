@@ -1,0 +1,13 @@
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $Grey;
+    border-radius: 4px;
+    width: 151px;
+    height: 32px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: $Light;
+    text-decoration: none;
+}

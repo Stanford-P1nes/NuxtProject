@@ -1,0 +1,31 @@
+.feature {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.featureAvatar {
+    min-width: 6.25rem;
+    min-height: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $Avatar;
+    overflow: hidden;
+}
+.featureInfoBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    strong {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.33333;
+        color: $Dark;
+    }
+    p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: $Dark;
+    }
+}

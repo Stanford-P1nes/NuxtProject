@@ -1,0 +1,53 @@
+.burgerMenu {
+    position: relative;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+    gap: 3px;
+    animation: burgerMenuUnActive .5s ease 0s forwards;
+    z-index: 2;
+    // Внутреннее содержимое кнопки
+    span {
+        width: 100%;
+        height: 5px;
+        background-color: $Light;
+    }
+    // Применяем стили к элементу при определенных событиях
+    &.active {
+        animation: burgerMenuActive .5s ease 0s forwards;
+    }
+    // Вызываем кнопку
+    @media screen and (max-width: 1050px) {
+        display: flex;
+    }
+}
+// Анимации
+// Анимация когда кнопка не активна
+@keyframes burgerMenuUnActive {
+    from {
+        transform: rotate(90deg);
+        gap: 0;
+    }
+    50% {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(0deg);
+        gap: 3px;
+    }
+}
+// Анимация когда кнопка активна
+@keyframes burgerMenuActive {
+    from {
+        transform: rotate(0);
+        gap: 0;
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(90deg);
+        gap: 3px;
+    }
+}

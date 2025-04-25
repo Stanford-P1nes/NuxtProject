@@ -1,0 +1,16 @@
+.logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-family: $Font-family;
+    &::before {
+        content: url('/favicon.png');
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        margin-right: 11px;
+    }
+}

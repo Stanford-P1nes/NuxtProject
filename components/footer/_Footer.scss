@@ -1,0 +1,27 @@
+.mainFooter {
+    width: 100%;
+    background-color: $Dark;
+    z-index: 1000;
+}
+.mainFooterInner {
+    display: flex;
+    flex-direction: column;
+}
+.mainFooterInnerBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainFooterInnerBlock.top {
+    padding: 64px 0;
+}
+.mainFooterInnerBlock.middle {
+    padding-bottom: 28px;
+}
+.mainFooterInnerBlock.bottom {
+    padding: 29px 0;
+    .link {
+        text-transform: capitalize;
+    }
+}

@@ -1,0 +1,26 @@
+.button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: $Light;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    font-family: $Font-family;
+    text-align: center;
+    border-radius: 6px;
+    width: 207px;
+    height: 48px;
+}
+.btnPrimary {
+    color: $Dark;
+    background-color: $Accent;
+}
+.btnSecondary {
+    color: $Light;
+    background-color: $Dark;
+}
+.btnThird {
+    color: $Dark;
+    background-color: $Light;
+}

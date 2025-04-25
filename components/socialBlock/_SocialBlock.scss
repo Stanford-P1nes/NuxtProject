@@ -1,0 +1,27 @@
+.socialBlock {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.socialBlockItem {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-color: $Grey;
+    text-decoration: none;
+    &.instagram {
+        background-image: url('/social/instagram.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    &.twitter {
+        background-image: url('/social/twitter.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    &.facebook {
+        background-image: url('/social/facebook.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
