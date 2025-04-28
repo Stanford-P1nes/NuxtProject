@@ -2,12 +2,11 @@
     transition: all .5s ease;
     ul {
         display: flex;
-        align-items: center;
         justify-content: space-between;
         gap: 30px;
     }
     @media screen and (max-width: 1050px) {
-        position: absolute;
+        position: fixed;
         margin-right: none;
         top: 0;
         right: -200px;

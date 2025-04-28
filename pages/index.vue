@@ -2,8 +2,8 @@
     <main class="main">
         <Hero />
         <Features />
-        <Testimonial />
-        <LandingPages />
-        <Feetback />
+        <Testimonial id="Testimonial" />
+        <LandingPages id="Landing-pages" />
+        <Feetback id="Feetback" />
     </main>
 </template>

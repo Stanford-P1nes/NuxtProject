@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
 	app: {
 		head: {
-			title: 'Blanco nuxt',
+			title: 'Agaev NUXT',
 			htmlAttrs: {
 				lang: 'en',
 			},

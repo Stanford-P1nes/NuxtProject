@@ -1,17 +1,17 @@
 <script lang='js' setup>
-    const props = defineProps({value: Boolean});
+    const props = defineProps({isActive: Boolean});
 </script>
 
 <template>
     <menu 
         class="mainMenu" 
-        :class='{show: props.value}'
+        :class='{show: isActive}'
         role="mainMenu"
     >
         <ul>
-            <li><NuxtLink class="link" to="/">Landing pages</NuxtLink></li>
-            <li><NuxtLink class="link" to="/">Other pages</NuxtLink></li>
-            <li><NuxtLink class="link" to="/">Callback</NuxtLink></li>
+            <li><NuxtLink class="link" to="#Testimonial">Testimonial</NuxtLink></li>
+            <li><NuxtLink class="link" to="#Landing-pages">Landing pages</NuxtLink></li>
+            <li><NuxtLink class="link" to="#Feetback">Callback</NuxtLink></li>
         </ul>
     </menu>
 </template>

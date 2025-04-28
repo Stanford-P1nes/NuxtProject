@@ -3,7 +3,7 @@
     const isActive = ref(false)
     import BurderMenuBurgerMenu from '../burderMenu/BurgerMenu.vue';
     import MainMenu from '../mainMenu/MainMenu.vue';
-    function burgerMenuClick() {
+    function changeStateMenu() {
         isActive.value = !isActive.value
     }
 </script>
@@ -14,9 +14,9 @@
         role="navigation"
         aria-label="Основное меню"
     >
-        <MainMenu :value='isActive' />
+        <MainMenu :isActive='isActive' />
         <RegisterBlock />
-        <BurderMenuBurgerMenu :value='isActive' @click="burgerMenuClick" />
+        <BurderMenuBurgerMenu :isActive='isActive'  @dropMenu='changeStateMenu' />
     </nav>
 </template>
 

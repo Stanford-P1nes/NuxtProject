@@ -1,14 +1,18 @@
 <script lang='js' setup>
-    const props = defineProps({value: Boolean});
+    const props = defineProps({isActive: Boolean});
+    const emit = defineEmits(['dropMenu']);
+    function sendSignal() {
+        emit('dropMenu')
+    }
 </script>
 
 <template>
     <article 
         class="burgerMenu" 
-        :class='{active: props.value}' 
+        :class='{active: isActive}' 
         role='dropMenu' 
         aria-label='Кнопка для выпадающего меню'
-        @click='updateValue'
+        @click='sendSignal'
     >
         <span></span>
         <span></span>

@@ -97,9 +97,9 @@ h2.title {
     text-wrap: nowrap;
     text-transform: lowercase;
     transition: color .1s linear;
-    &:hover, &:active, &:focus {
+    &:hover, &:active {
         color: $Active;
-    } 
+    }
 }
 .registerBlock__link {
     width: 89px;
