@@ -3,8 +3,8 @@
         <div class="container">
             <div class="mainFooterInner">
                 <div class="mainFooterInnerBlock top">
-                    <Logo />
-                    <button class="button btnThird" type="button">Get on Webflow</button>
+                    <Logo class="mainFooterInner__logo" />
+                    <button class="button btnThird mainFooterInnerBlock__button" type="button">Get on Webflow</button>
                 </div>
                 <div class="mainFooterInnerBlock middle">
                     <FooterMenu />

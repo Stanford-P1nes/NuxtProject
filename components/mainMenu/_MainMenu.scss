@@ -1,5 +1,8 @@
 .mainMenu {
     transition: all .5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     ul {
         display: flex;
         justify-content: space-between;
@@ -29,5 +32,13 @@
                 }
             }
         }
+    }
+}
+.mainManu__email {
+    display: none;
+    margin: 0 auto 15px;
+    display: none;
+    @media (max-width: 767px) {
+        display: flex;
     }
 }

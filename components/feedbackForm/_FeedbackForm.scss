@@ -37,6 +37,9 @@
             line-height: 1.5;
             color: $Placeholder;
         }
+        @media (max-width: 480px) {
+            padding: 0 16px;
+        }
     }
     input#password::-webkit-inner-spin-button {
         appearance: none;

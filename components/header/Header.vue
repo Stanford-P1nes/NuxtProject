@@ -4,9 +4,9 @@
             <div class="mainHeaderInner">
                 <div class="miniBlockLogo">
                     <Logo />
-                    <Email />
+                    <Email class="mainHeaderInner__email" />
                 </div>
-                <Nav />
+                <Nav class="mainHeaderInner__nav" />
             </div>
         </div>
     </header>

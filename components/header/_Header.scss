@@ -25,3 +25,11 @@
         transform: translateX(-50%);
     }
 }
+.mainHeaderInner__email {
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+.mainHeaderInner__nav {
+    margin-left: 10px;
+}

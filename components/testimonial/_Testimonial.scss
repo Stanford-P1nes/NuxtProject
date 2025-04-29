@@ -5,22 +5,25 @@
 .testimonialInner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: $Dark;
 }
 .testimonialContentBlock {
-    height: 100%;
     display: flex;
     flex-direction: column;
     padding: 100px;
+    @media (max-width: 767px) {
+        padding: 50px;
+    }
 }
 .testimonialSlider {
-    width: 610px;
+    width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
     display: flex;
 }
 .testimonialSlide {
-    width: 610px;
+    max-width: 610px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -33,6 +36,9 @@
     line-height: 1.2;
     text-align: center;
     color: $Light;
+    @media (max-width: 1199px) {
+        font-size: 1.5rem;
+    }
 }
 .testimonialAuthor {
     display: flex;
@@ -69,4 +75,7 @@
 }
 .testimonialImgBlock {
     width: 427px;
+    @media (max-width: 992px) {
+        display: none;
+    }
 }

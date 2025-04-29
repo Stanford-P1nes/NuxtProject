@@ -25,3 +25,11 @@
         text-transform: capitalize;
     }
 }
+.mainFooterInner__logo {
+    @media (max-width: 480px) {
+        display: none;
+    }
+}
+.mainFooterInnerBlock__button {
+    margin: 0 auto;
+}

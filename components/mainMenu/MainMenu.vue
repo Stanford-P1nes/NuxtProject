@@ -1,5 +1,6 @@
 <script lang='js' setup>
     const props = defineProps({isActive: Boolean});
+    import Email from '~/components/Email/Email.vue'
 </script>
 
 <template>
@@ -13,6 +14,7 @@
             <li><NuxtLink class="link" to="#Landing-pages">Landing pages</NuxtLink></li>
             <li><NuxtLink class="link" to="#Feetback">Callback</NuxtLink></li>
         </ul>
+        <Email class="mainManu__email" />
     </menu>
 </template>
 

@@ -16,18 +16,6 @@
                                 <p class="testimonialAuthorJob">Director @Company</p>
                             </div>
                         </div>
-                        <!-- <div class="testimonialSlide">
-                            <span class="testimonialTitle">
-                                <img src="/img/img3.svg" alt="Аватарка слайдера">
-                            </span>
-                            <q class="testimonialText">
-                                “Join a community of industry leading professionals. Join a community of industry leading professionals.“
-                            </q>
-                            <div class="testimonialAuthor">
-                                <p>Laura Paula</p>
-                                <p>Director @Company</p>
-                            </div>
-                        </div> -->
                     </div>
                     <div class="testimonialPaginationBlock">
                         <span class="active"></span>

@@ -10,12 +10,11 @@
 
 <template>
     <nav
-        class="mainHeaderInner__nav"
         role="navigation"
         aria-label="Основное меню"
     >
         <MainMenu :isActive='isActive' />
-        <RegisterBlock />
+        <RegisterBlock class="nav__registerBlock" />
         <BurderMenuBurgerMenu :isActive='isActive'  @dropMenu='changeStateMenu' />
     </nav>
 </template>

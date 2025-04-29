@@ -1,9 +1,10 @@
 nav {
     display: flex;
     align-items: center;
-    gap: 65px;
+    gap: 15px;
 }
-
-.mainHeaderInner__nav {
-    margin-left: 10px;
+.nav__registerBlock {
+    @media (max-width: 480px) {
+        display: none;
+    }
 }

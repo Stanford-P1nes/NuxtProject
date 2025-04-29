@@ -83,5 +83,5 @@
 </script>
 
 <style lang="scss">
-    @import './ProductsContainer.scss';
+    @import './_ProductsContainer.scss';
 </style>

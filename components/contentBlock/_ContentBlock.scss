@@ -2,6 +2,12 @@
     display: flex;
     flex-direction: column;
     gap: 160px;
+    @media (max-width: 767px) {
+        gap: 100px;
+    }
+    @media (max-width: 480px) {
+        gap: 50px;
+    }
 }
 .miniContentBlock {
     width: 100%;
@@ -24,6 +30,9 @@
         margin: 0 auto;
         display: flex;
         gap: 0.5rem;
+        @media (max-width: 480px) {
+            flex-direction: column;
+        }
     }
 }
 .gradeBlock {
